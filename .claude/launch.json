@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "faireez-demand-dashboard",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/guptaaryan/faireez-demand-dashboard && uv run uvicorn main:app --host 0.0.0.0 --port 8767"],
+      "port": 8767
+    }
+  ]
+}
