@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse, HTMLResponse
 
 ROOT = Path(__file__).parent.parent
 DATA_DIR = Path(os.environ.get("DATA_DIR_OVERRIDE", str(ROOT / "data")))
@@ -410,3 +411,9 @@ def cumulative_visits(
     return rows
 
 
+
+
+# ── Serve frontend ─────────────────────────────────────────────────────────────
+@app.get("/")
+def index():
+    return FileResponse(str(Path(__file__).parent / "index.html"))
