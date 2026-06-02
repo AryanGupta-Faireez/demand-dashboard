@@ -16,7 +16,6 @@ import psycopg2.extras
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
-from fastapi.staticfiles import StaticFiles
 
 HERE = Path(__file__).parent
 DATA_DIR = HERE / "data"
@@ -563,9 +562,6 @@ def cumulative_visits(
 
 
 # ── Serve frontend ─────────────────────────────────────────────────────────────
-app.mount("/static", StaticFiles(directory=str(HERE / "static")), name="static")
-
-
 @app.get("/")
 def index():
-    return FileResponse(str(HERE / "static" / "index.html"))
+    return FileResponse(str(HERE / "index.html"))
