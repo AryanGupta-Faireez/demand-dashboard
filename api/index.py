@@ -177,7 +177,19 @@ def demand_financials(
     v["_mul"] = v["_mul"].fillna(1.0)
     v["_price_usd"] = v["FinalPrice"] * v["_mul"]
     monthly_revenue = round(float(v["_price_usd"].sum()), 2)
-    adhoc_revenue   = round(float(v.loc[v["EntityType"] == "ad-hoc", "_price_usd"].sum()), 2)
+
+    # Ad-hoc 3-month average: sum per complete calendar month over last 3 months ÷ 3
+    now = pd.Timestamp.now()
+    v_all = _load("visits").copy()
+    v_all = v_all[v_all["ApartmentId"].isin(apt_ids) & (v_all["EntityType"] == "ad-hoc")]
+    v_all = v_all.join(mul.rename("_mul"), on="ApartmentId")
+    v_all["_mul"] = v_all["_mul"].fillna(1.0)
+    v_all["_price_usd"] = pd.to_numeric(v_all["FinalPrice"], errors="coerce").fillna(0) * v_all["_mul"]
+    v_all["_date"] = pd.to_datetime(v_all["Date"], errors="coerce")
+    months_3 = [(now - pd.DateOffset(months=i)).to_period("M") for i in range(1, 4)]
+    v_all["_period"] = v_all["_date"].dt.to_period("M")
+    adhoc_3m = v_all[v_all["_period"].isin(months_3)]["_price_usd"].sum()
+    adhoc_revenue = round(float(adhoc_3m) / 3, 2)
 
     rb = _load("recurring_bookings")
     rb = rb[rb["ApartmentId"].isin(apt_ids)]
