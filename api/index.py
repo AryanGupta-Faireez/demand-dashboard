@@ -51,6 +51,20 @@ def _is_stale() -> bool:
         return True
 
 
+# ── Currency conversion ────────────────────────────────────────────────────────
+ILS_TO_USD = 0.27  # fixed approximate rate: 1 ILS → 0.27 USD
+
+def _usd_multipliers(apt_ids: set) -> pd.Series:
+    """Return a Series indexed by ApartmentId with a USD conversion multiplier.
+    Apartments in IL / Israel use ILS; everything else is treated as USD."""
+    apts = _load("apartments")[["Id", "LocationId"]].copy()
+    apts = apts[apts["Id"].isin(apt_ids)]
+    loc  = _load("locations")[["Id", "Country"]].copy()
+    merged = apts.merge(loc, left_on="LocationId", right_on="Id", suffixes=("_apt", "_loc"))
+    merged["multiplier"] = np.where(merged["Country"].isin(["IL", "Israel"]), ILS_TO_USD, 1.0)
+    return merged.set_index("Id_apt")["multiplier"]
+
+
 # ── Filter helpers ─────────────────────────────────────────────────────────────
 def _loc_ids(country=None, city=None, project=None, neighbourhood=None) -> set:
     loc = _load("locations")
@@ -156,13 +170,20 @@ def demand_financials(
     apt_ids = set(apts["Id"].tolist())
     sub_ids = set(apts[apts["Status"].isin(["RECURRING_SUBSCRIPTION","ON_DEMAND_SUBSCRIPTION"])]["Id"].tolist())
 
+    mul = _usd_multipliers(apt_ids)
+
     v = _visits_df(apt_ids, date_from, date_to)
-    monthly_revenue = round(float(v["FinalPrice"].sum()), 2)
-    adhoc_revenue   = round(float(v[v["EntityType"] == "ad-hoc"]["FinalPrice"].sum()), 2)
+    v = v.join(mul.rename("_mul"), on="ApartmentId")
+    v["_mul"] = v["_mul"].fillna(1.0)
+    v["_price_usd"] = v["FinalPrice"] * v["_mul"]
+    monthly_revenue = round(float(v["_price_usd"].sum()), 2)
+    adhoc_revenue   = round(float(v.loc[v["EntityType"] == "ad-hoc", "_price_usd"].sum()), 2)
 
     rb = _load("recurring_bookings")
     rb = rb[rb["ApartmentId"].isin(apt_ids)]
-    mrr = round(float(rb["Price"].sum()) * 4.33, 2)
+    rb = rb.join(mul.rename("_mul"), on="ApartmentId")
+    rb["_mul"] = rb["_mul"].fillna(1.0)
+    mrr = round(float((rb["Price"] * rb["_mul"]).sum()), 2)
     mrr_apt_count = int(rb["ApartmentId"].nunique())
     avg_hours_per_apt = rb.groupby("ApartmentId")["weekly_hours"].sum()
     avg_rec_hours = round(float(avg_hours_per_apt.mean()) if len(avg_hours_per_apt) else 0, 1)
@@ -237,7 +258,11 @@ def demand_histograms(
 
     rb = _load("recurring_bookings")
     rb = rb[rb["ApartmentId"].isin(apt_ids)]
-    mrr_per_apt = rb.groupby("ApartmentId")["Price"].sum() * 4.33
+    mul = _usd_multipliers(apt_ids)
+    rb = rb.join(mul.rename("_mul"), on="ApartmentId")
+    rb["_mul"] = rb["_mul"].fillna(1.0)
+    rb["_price_usd"] = rb["Price"] * rb["_mul"]
+    mrr_per_apt = rb.groupby("ApartmentId")["_price_usd"].sum()
     mrr_per_apt = mrr_per_apt[mrr_per_apt > 0]
     buckets = (np.floor(mrr_per_apt / 50) * 50).astype(int)
     mrr_hist = [{"bucket_start": int(k), "count": int(c)} for k, c in
@@ -370,10 +395,14 @@ def cumulative_mrr(
 
     rb = _load("recurring_bookings").copy()
     rb = rb[rb["ApartmentId"].isin(apt_ids)]
+    mul = _usd_multipliers(apt_ids)
+    rb = rb.join(mul.rename("_mul"), on="ApartmentId")
+    rb["_mul"] = rb["_mul"].fillna(1.0)
+    rb["_price_usd"] = rb["Price"] * rb["_mul"]
     rb["CreatedAt"] = pd.to_datetime(rb["CreatedAt"], format="mixed", utc=True).dt.tz_localize(None)
     rb["month"] = rb["CreatedAt"].dt.to_period("M").astype(str)
 
-    monthly = rb.groupby("month")["Price"].sum().reset_index()
+    monthly = rb.groupby("month")["_price_usd"].sum().reset_index()
     monthly.columns = ["month", "new_mrr"]
     monthly = monthly.sort_values("month").reset_index(drop=True)
     monthly["cumulative_mrr"] = monthly["new_mrr"].cumsum()
