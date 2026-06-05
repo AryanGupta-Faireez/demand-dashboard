@@ -63,6 +63,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 195,Miami,Flow Brickell,US,632.0,5,Flow Brickell Polygon
 215,Miami,Elysee Miami,US,,1,Edgeater Polygon
 42,Chatham,The Ivy,US,200.0,8,Chatham / West Orange Polygon
+232,Key Biscayne,Grand Bay Tower,US,,2,The Ocean Club Polygon
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon
 131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon
 196,Miami,Flow Miami,US,444.0,5,Flow Brickell Polygon
