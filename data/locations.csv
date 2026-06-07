@@ -1,90 +1,90 @@
 Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourhood
-119,New York,535 W 43rd Street,US,280.0,4,Hell's Kitchen Polygon
-142,Harrison,One Harrison,US,257.0,7,Harrison Polygon
 112,Brooklyn,Plank Road,US,312.0,11,Boerum Hill Polygon
 6,Jersey City,100 House,US,137.0,6,Hoboken Polygon
 199,Miami,1800 Club,US,,1,Edgeater Polygon
 125,Brooklyn,The Vitagraph,US,312.0,16,Floating NY 2
 221,Miami Beach,Mirador 1000,US,,13,Miami Beach Polygon
-212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon
-93,Brooklyn,Union Channel ,US,224.0,11,Boerum Hill Polygon
+119,New York,535 W 43rd Street,US,280.0,4,Hell's Kitchen Polygon
+142,Harrison,One Harrison,US,257.0,7,Harrison Polygon
 15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon
-151,Miami,Cite On The Bay,US,437.0,1,Edgeater Polygon
 56,Brooklyn,The Dime,US,177.0,10,Williamsburg Polygon
-47,Brooklyn,1 Boerum PL,US,138.0,16,Floating NY 2
-213,Miami Beach,1330 West Avenue,US,,13,Miami Beach Polygon
+93,Brooklyn,Union Channel ,US,224.0,11,Boerum Hill Polygon
+212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon
+151,Miami,Cite On The Bay,US,437.0,1,Edgeater Polygon
 124,Brooklyn,The Kestrel,US,126.0,16,Floating NY 2
-139,Miami,Bay Parc Apartments,US,474.0,1,Edgeater Polygon
 94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,
-129,Brooklyn,544 Carroll,US,132.0,11,Boerum Hill Polygon
-111,Brooklyn,Brooklyn Crossing,US,858.0,11,Boerum Hill Polygon
-51,Harrison,300 Somerset,US,275.0,7,Harrison Polygon
+139,Miami,Bay Parc Apartments,US,474.0,1,Edgeater Polygon
+213,Miami Beach,1330 West Avenue,US,,13,Miami Beach Polygon
+47,Brooklyn,1 Boerum PL,US,138.0,16,Floating NY 2
 204,Miami,1717 North Bayshore Drive,US,810.0,1,Edgeater Polygon
-191,Miami,2001 Biscayne Boulevard,US,436.0,1,Edgeater Polygon
+111,Brooklyn,Brooklyn Crossing,US,858.0,11,Boerum Hill Polygon
+129,Brooklyn,544 Carroll,US,132.0,11,Boerum Hill Polygon
+51,Harrison,300 Somerset,US,275.0,7,Harrison Polygon
+8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon
+10,Jersey City,829 Garfield,US,110.0,3,Floating Jersey
+122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon
+1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,
 180,Miami,1800 Biscayne Plaza,US,195.0,1,Edgeater Polygon
 61,West Orange,Stonehill,US,420.0,8,Chatham / West Orange Polygon
-122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon
-10,Jersey City,829 Garfield,US,110.0,3,Floating Jersey
-8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon
-1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,
-95,Brooklyn,416 Kent Avenue,US,252.0,10,Williamsburg Polygon
 205,New York,1 River Place,US,,4,Hell's Kitchen Polygon
 220,Miami,Bay Parc,US,,1,Edgeater Polygon
 7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,
+95,Brooklyn,416 Kent Avenue,US,252.0,10,Williamsburg Polygon
 4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,
-44,New York,330W-56th,US,274.0,4,Hell's Kitchen Polygon
 11,Tel Aviv-Yafo,Gindi 3,IL,300.0,,
+44,New York,330W-56th,US,274.0,4,Hell's Kitchen Polygon
 60,Tel Aviv-Yafo,HaHehad,IL,70.0,,
 137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,
 150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgeater Polygon
-115,Miami,Grove Central Residences,US,402.0,14,Floating Miami
-134,East Hanover,Livana East Hanover,US,265.0,8,Chatham / West Orange Polygon
 169,Miami,Aria on the Bay Condominium Association  INC,US,648.0,1,Edgeater Polygon
+134,East Hanover,Livana East Hanover,US,265.0,8,Chatham / West Orange Polygon
 73,Miami,The Boulevard,US,282.0,14,Floating Miami
+115,Miami,Grove Central Residences,US,402.0,14,Floating Miami
 171,Miami,22 Skyview Apartments,US,258.0,1,Edgeater Polygon
-9,Jersey City,The Enclave,US,268.0,6,Hoboken Polygon
 183,Miami,1800 North Bayshore Drive,US,469.0,1,Edgeater Polygon
-214,Brooklyn,1 Boerum Place,US,,12,Brooklyn Heights Polygon
 41,New York,John Street 116,US,220.0,9,Financial District Polygon
-230,Brooklyn,378 Bergen Street,US,,11,Boerum Hill Polygon
 144,Harrison,Waters Edge,US,141.0,7,Harrison Polygon
 52,Harrison,330 Angelo Cifelli,US,330.0,7,Harrison Polygon
+230,Brooklyn,378 Bergen Street,US,,11,Boerum Hill Polygon
+214,Brooklyn,1 Boerum Place,US,,12,Brooklyn Heights Polygon
+9,Jersey City,The Enclave,US,268.0,6,Hoboken Polygon
 133,Miami,2000 Biscayne,US,424.0,1,Edgeater Polygon
-117,New York,The Landon,US,371.0,4,Hell's Kitchen Polygon
 140,Miami Beach,Southgate Towers,US,498.0,13,Miami Beach Polygon
-53,Harrison,The Eddy,US,310.0,7,Harrison Polygon
 114,New York,20 Broad Street,US,533.0,9,Financial District Polygon
+117,New York,The Landon,US,371.0,4,Hell's Kitchen Polygon
+53,Harrison,The Eddy,US,310.0,7,Harrison Polygon
 98,Jersey City,345 Baldwin Avenue,US,116.0,3,Floating Jersey
 194,New York,The Atelier Condo NYC,US,478.0,4,Hell's Kitchen Polygon
 203,Miami,Venetia Condominium,US,384.0,1,Edgeater Polygon
-54,New York,Nine 52,US,156.0,4,Hell's Kitchen Polygon
 207,New York,561 10th Avenue,US,,4,Hell's Kitchen Polygon
+54,New York,Nine 52,US,156.0,4,Hell's Kitchen Polygon
 145,Harrison,Dey and Bergen,US,242.0,7,Harrison Polygon
-195,Miami,Flow Brickell,US,632.0,5,Flow Brickell Polygon
 215,Miami,Elysee Miami,US,,1,Edgeater Polygon
+195,Miami,Flow Brickell,US,632.0,5,Flow Brickell Polygon
 42,Chatham,The Ivy,US,200.0,8,Chatham / West Orange Polygon
-232,Key Biscayne,Grand Bay Tower,US,,2,The Ocean Club Polygon
-121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon
-131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon
-196,Miami,Flow Miami,US,444.0,5,Flow Brickell Polygon
 91,Queens,Alta,US,467.0,15,Floating NY 1
-76,Queens,Woodside Central,US,88.0,15,Floating NY 1
+232,Key Biscayne,Grand Bay Tower,US,,2,The Ocean Club Polygon
+131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon
+121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon
+196,Miami,Flow Miami,US,444.0,5,Flow Brickell Polygon
 75,Jersey City,The Devan,US,336.0,6,Hoboken Polygon
-104,Miami,Midtown 5,US,400.0,14,Floating Miami
-126,Brooklyn,The Landing,US,140.0,12,Brooklyn Heights Polygon
 130,New York,Arabella 101,US,77.0,16,Floating NY 2
 96,Brooklyn,420 Kent Avenue,US,605.0,10,Williamsburg Polygon
-127,New York,220 East 72nd Street,US,152.0,16,Floating NY 2
+76,Queens,Woodside Central,US,88.0,15,Floating NY 1
+191,Miami,2001 Biscayne Boulevard,US,436.0,1,Edgeater Polygon
 128,New York,250 E Houston,US,118.0,16,Floating NY 2
+127,New York,220 East 72nd Street,US,152.0,16,Floating NY 2
+104,Miami,Midtown 5,US,400.0,14,Floating Miami
+126,Brooklyn,The Landing,US,140.0,12,Brooklyn Heights Polygon
+68,Brooklyn,655 Union,US,193.0,11,Boerum Hill Polygon
 120,Brooklyn,66 Rockwell Place,US,326.0,12,Brooklyn Heights Polygon
 123,Miami Beach,Flamingo South Beach,US,284.0,13,Miami Beach Polygon
-68,Brooklyn,655 Union,US,193.0,11,Boerum Hill Polygon
 17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon
 153,Miami,Watermarc at Biscayne Bay,US,296.0,1,Edgeater Polygon
-77,Jersey City,Oliver on the Hudson,US,401.0,3,Floating Jersey
 118,Brooklyn,The Bergen,US,84.0,11,Boerum Hill Polygon
 197,Miami,251 NE 20th St apt 3506,US,420.0,1,Edgeater Polygon
+77,Jersey City,Oliver on the Hudson,US,401.0,3,Floating Jersey
 149,Miami,Opera Tower,US,635.0,1,Edgeater Polygon
 92,New York,The Buchanan,US,289.0,15,Floating NY 1
-198,Miami,Quantum on the Bay,US,698.0,1,Edgeater Polygon
 63,Jersey City,Agnes,US,233.0,3,Floating Jersey
+198,Miami,Quantum on the Bay,US,698.0,1,Edgeater Polygon
