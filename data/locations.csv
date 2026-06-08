@@ -12,8 +12,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon
 151,Miami,Cite On The Bay,US,437.0,1,Edgeater Polygon
 124,Brooklyn,The Kestrel,US,126.0,16,Floating NY 2
-94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,
 139,Miami,Bay Parc Apartments,US,474.0,1,Edgeater Polygon
+94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,
 213,Miami Beach,1330 West Avenue,US,,13,Miami Beach Polygon
 47,Brooklyn,1 Boerum PL,US,138.0,16,Floating NY 2
 204,Miami,1717 North Bayshore Drive,US,810.0,1,Edgeater Polygon
@@ -22,19 +22,16 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 51,Harrison,300 Somerset,US,275.0,7,Harrison Polygon
 8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon
 10,Jersey City,829 Garfield,US,110.0,3,Floating Jersey
-122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon
 1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,
+122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon
 180,Miami,1800 Biscayne Plaza,US,195.0,1,Edgeater Polygon
 61,West Orange,Stonehill,US,420.0,8,Chatham / West Orange Polygon
 205,New York,1 River Place,US,,4,Hell's Kitchen Polygon
-220,Miami,Bay Parc,US,,1,Edgeater Polygon
 7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,
+220,Miami,Bay Parc,US,,1,Edgeater Polygon
 95,Brooklyn,416 Kent Avenue,US,252.0,10,Williamsburg Polygon
-4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,
-11,Tel Aviv-Yafo,Gindi 3,IL,300.0,,
-44,New York,330W-56th,US,274.0,4,Hell's Kitchen Polygon
-60,Tel Aviv-Yafo,HaHehad,IL,70.0,,
 137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,
+44,New York,330W-56th,US,274.0,4,Hell's Kitchen Polygon
 150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgeater Polygon
 169,Miami,Aria on the Bay Condominium Association  INC,US,648.0,1,Edgeater Polygon
 134,East Hanover,Livana East Hanover,US,265.0,8,Chatham / West Orange Polygon
@@ -61,6 +58,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 145,Harrison,Dey and Bergen,US,242.0,7,Harrison Polygon
 215,Miami,Elysee Miami,US,,1,Edgeater Polygon
 195,Miami,Flow Brickell,US,632.0,5,Flow Brickell Polygon
+60,Tel Aviv-Yafo,HaHehad,IL,70.0,,
 42,Chatham,The Ivy,US,200.0,8,Chatham / West Orange Polygon
 91,Queens,Alta,US,467.0,15,Floating NY 1
 232,Key Biscayne,Grand Bay Tower,US,,2,The Ocean Club Polygon
@@ -83,7 +81,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 118,Brooklyn,The Bergen,US,84.0,11,Boerum Hill Polygon
 197,Miami,251 NE 20th St apt 3506,US,420.0,1,Edgeater Polygon
 77,Jersey City,Oliver on the Hudson,US,401.0,3,Floating Jersey
+11,Tel Aviv-Yafo,Gindi 3,IL,300.0,,
 149,Miami,Opera Tower,US,635.0,1,Edgeater Polygon
 92,New York,The Buchanan,US,289.0,15,Floating NY 1
+4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,
 63,Jersey City,Agnes,US,233.0,3,Floating Jersey
 198,Miami,Quantum on the Bay,US,698.0,1,Edgeater Polygon
