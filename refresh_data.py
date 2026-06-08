@@ -45,10 +45,11 @@ def main():
         cur.execute("""
             SELECT l."Id", l."City", l."Project", l."Country",
                    l."ApproximateNumberOfApartments", l."NeighborhoodId",
-                   COALESCE(n."Project", '') AS neighbourhood
+                   COALESCE(n."Project", '') AS neighbourhood,
+                   l."Status" AS building_status
             FROM "Locations" l
             LEFT JOIN "Neighborhoods" n ON n."Id" = l."NeighborhoodId"
-            WHERE l."Status" = 'ACTIVE' AND (l."IsTest" IS NULL OR l."IsTest" = false)
+            WHERE (l."IsTest" IS NULL OR l."IsTest" = false)
         """)
         pd.DataFrame(cur.fetchall()).to_csv(DATA_DIR / "locations.csv", index=False)
         print("[refresh] locations done")

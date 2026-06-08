@@ -225,6 +225,10 @@
     <label>Neighbourhood</label>
     <select id="f-neighbourhood"><option value="all">All Neighbourhoods</option></select>
   </div>
+  <div class="filter-group">
+    <label>Building Status</label>
+    <select id="f-building-status"><option value="all">All Buildings</option></select>
+  </div>
   <div class="filter-actions">
     <button class="btn-apply" onclick="applyFilters()">Apply</button>
     <button class="btn-reset" onclick="resetFilters()">Reset</button>
@@ -580,23 +584,26 @@
     const ci = document.getElementById('f-city').value;
     const pr = document.getElementById('f-project').value;
     const nb = document.getElementById('f-neighbourhood').value;
+    const bs = document.getElementById('f-building-status').value;
     if (df) p.set('date_from', df);
     if (dt) p.set('date_to', dt);
     if (co && co !== 'all') p.set('country', co);
     if (ci && ci !== 'all') p.set('city', ci);
     if (pr && pr !== 'all') p.set('project', pr);
     if (nb && nb !== 'all') p.set('neighbourhood', nb);
+    if (bs && bs !== 'all') p.set('building_status', bs);
     return p;
   }
 
   function applyFilters() { loadAll(); }
   function resetFilters() {
-    document.getElementById('f-date-from').value      = '';
-    document.getElementById('f-date-to').value        = '';
-    document.getElementById('f-country').value        = 'all';
-    document.getElementById('f-city').value           = 'all';
-    document.getElementById('f-project').value        = 'all';
-    document.getElementById('f-neighbourhood').value  = 'all';
+    document.getElementById('f-date-from').value          = '';
+    document.getElementById('f-date-to').value            = '';
+    document.getElementById('f-country').value            = 'all';
+    document.getElementById('f-city').value               = 'all';
+    document.getElementById('f-project').value            = 'all';
+    document.getElementById('f-neighbourhood').value      = 'all';
+    document.getElementById('f-building-status').value    = 'all';
     loadAll();
   }
 
@@ -614,7 +621,8 @@
     fill('f-country',       d.countries,      'All Countries');
     fill('f-city',          d.cities,         'All Cities');
     fill('f-project',       d.projects,       'All Projects');
-    fill('f-neighbourhood', d.neighbourhoods, 'All Neighbourhoods');
+    fill('f-neighbourhood',   d.neighbourhoods,    'All Neighbourhoods');
+    fill('f-building-status', d.building_statuses, 'All Buildings');
   }
 
   // ── Charts ────────────────────────────────────────────────────────────────────
@@ -876,7 +884,7 @@
 
   async function loadActiveUsers(params) {
     const locParams = new URLSearchParams();
-    for (const key of ['country', 'city', 'project', 'neighbourhood']) {
+    for (const key of ['country', 'city', 'project', 'neighbourhood', 'building_status']) {
       const v = params.get(key); if (v) locParams.set(key, v);
     }
     const r = await fetch(`${BASE}/api/demand/active-users-monthly?${locParams}`);
@@ -961,7 +969,7 @@
 
   async function loadCumulativeMRR(params) {
     const locParams = new URLSearchParams();
-    for (const key of ['country', 'city', 'project', 'neighbourhood']) {
+    for (const key of ['country', 'city', 'project', 'neighbourhood', 'building_status']) {
       const v = params.get(key); if (v) locParams.set(key, v);
     }
     const r = await fetch(`${BASE}/api/demand/cumulative-mrr?${locParams}`);
@@ -1059,7 +1067,7 @@
 
   async function loadCumulativeVisits(params) {
     const locParams = new URLSearchParams();
-    for (const key of ['country', 'city', 'project', 'neighbourhood']) {
+    for (const key of ['country', 'city', 'project', 'neighbourhood', 'building_status']) {
       const v = params.get(key); if (v) locParams.set(key, v);
     }
     const r = await fetch(`${BASE}/api/demand/cumulative-visits?${locParams}`);
@@ -1158,7 +1166,7 @@
 
   async function loadChurn(params) {
     const locParams = new URLSearchParams();
-    for (const key of ['country', 'city', 'project', 'neighbourhood']) {
+    for (const key of ['country', 'city', 'project', 'neighbourhood', 'building_status']) {
       const v = params.get(key); if (v) locParams.set(key, v);
     }
     const r = await fetch(`${BASE}/api/demand/churn-monthly?${locParams}`);
@@ -1171,7 +1179,7 @@
   async function loadCumulative(params) {
     // Cumulative chart only uses location filters, not date
     const locParams = new URLSearchParams();
-    for (const key of ['country', 'city', 'project', 'neighbourhood']) {
+    for (const key of ['country', 'city', 'project', 'neighbourhood', 'building_status']) {
       const v = params.get(key);
       if (v) locParams.set(key, v);
     }

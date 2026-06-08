@@ -66,7 +66,7 @@ def _usd_multipliers(apt_ids: set) -> pd.Series:
 
 
 # ── Filter helpers ─────────────────────────────────────────────────────────────
-def _loc_ids(country=None, city=None, project=None, neighbourhood=None) -> set:
+def _loc_ids(country=None, city=None, project=None, neighbourhood=None, building_status=None) -> set:
     loc = _load("locations")
     if country and country != "all":
         loc = loc[loc["Country"] == country]
@@ -76,6 +76,9 @@ def _loc_ids(country=None, city=None, project=None, neighbourhood=None) -> set:
         loc = loc[loc["Project"] == project]
     if neighbourhood and neighbourhood != "all":
         loc = loc[loc["neighbourhood"] == neighbourhood]
+    if building_status and building_status != "all":
+        if "building_status" in loc.columns:
+            loc = loc[loc["building_status"] == building_status]
     return set(loc["Id"].tolist())
 
 
@@ -121,11 +124,15 @@ def data_status():
 @app.get("/api/filters")
 def get_filters():
     loc = _load("locations")
+    building_statuses = []
+    if "building_status" in loc.columns:
+        building_statuses = sorted(loc["building_status"].dropna().unique().tolist())
     return {
-        "countries":      sorted(loc["Country"].dropna().unique().tolist()),
-        "cities":         sorted(loc["City"].dropna().unique().tolist()),
-        "projects":       sorted(loc["Project"].dropna().unique().tolist()),
-        "neighbourhoods": sorted(loc["neighbourhood"][loc["neighbourhood"] != ""].dropna().unique().tolist()),
+        "countries":        sorted(loc["Country"].dropna().unique().tolist()),
+        "cities":           sorted(loc["City"].dropna().unique().tolist()),
+        "projects":         sorted(loc["Project"].dropna().unique().tolist()),
+        "neighbourhoods":   sorted(loc["neighbourhood"][loc["neighbourhood"] != ""].dropna().unique().tolist()),
+        "building_statuses": building_statuses,
     }
 
 
@@ -135,8 +142,9 @@ def demand_portfolio(
     date_from: Optional[str] = None, date_to: Optional[str] = None,
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     loc_f = _load("locations")
     loc_f = loc_f[loc_f["Id"].isin(lids)]
     apts = _apts_df(lids, date_from, date_to)
@@ -164,8 +172,9 @@ def demand_financials(
     date_from: Optional[str] = None, date_to: Optional[str] = None,
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     apts = _apts_df(lids)
     apt_ids = set(apts["Id"].tolist())
     sub_ids = set(apts[apts["Status"].isin(["RECURRING_SUBSCRIPTION","ON_DEMAND_SUBSCRIPTION"])]["Id"].tolist())
@@ -263,8 +272,9 @@ def demand_histograms(
     date_from: Optional[str] = None, date_to: Optional[str] = None,
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     apts = _apts_df(lids)
     apt_ids = set(apts["Id"].tolist())
 
@@ -295,8 +305,9 @@ def demand_histograms(
 def cumulative_subscribers(
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     apts = _apts_df(lids)
     apt_ids = set(apts["Id"].tolist())
 
@@ -333,8 +344,9 @@ def cumulative_subscribers(
 def churn_monthly(
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     apts = _apts_df(lids)
     apt_ids = set(apts["Id"].tolist())
 
@@ -372,8 +384,9 @@ def churn_monthly(
 def active_users_monthly(
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     apts = _apts_df(lids)
     apt_ids = set(apts["Id"].tolist())
 
@@ -400,8 +413,9 @@ def active_users_monthly(
 def cumulative_mrr(
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     apts = _apts_df(lids)
     apt_ids = set(apts["Id"].tolist())
 
@@ -428,8 +442,9 @@ def cumulative_mrr(
 def cumulative_visits(
     country: Optional[str] = None, city: Optional[str] = None,
     project: Optional[str] = None, neighbourhood: Optional[str] = None,
+    building_status: Optional[str] = None,
 ):
-    lids = _loc_ids(country, city, project, neighbourhood)
+    lids = _loc_ids(country, city, project, neighbourhood, building_status)
     apts = _apts_df(lids)
     apt_ids = set(apts["Id"].tolist())
 
