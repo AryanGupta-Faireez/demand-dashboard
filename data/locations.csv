@@ -42,7 +42,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgeater Polygon,ACTIVE
 169,Miami,Aria on the Bay Condominium Association  INC,US,648.0,1,Edgeater Polygon,ACTIVE
 134,East Hanover,Livana East Hanover,US,265.0,8,Chatham / West Orange Polygon,ACTIVE
-73,Miami,The Boulevard,US,282.0,14,Floating Miami,ACTIVE
+73,Miami,The Boulevard,US,282.0,,,ACTIVE
 159,Key Biscayne,Governors Lodge Condo,US,33.0,2,The Ocean Club Polygon,INACTIVE
 115,Miami,Grove Central Residences,US,402.0,14,Floating Miami,ACTIVE
 171,Miami,22 Skyview Apartments,US,258.0,1,Edgeater Polygon,ACTIVE
