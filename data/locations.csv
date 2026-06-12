@@ -11,6 +11,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 182,Key Biscayne,121 Crandon Boulevard,US,,2,The Ocean Club Polygon,INACTIVE
 56,Brooklyn,The Dime,US,177.0,10,Williamsburg Polygon,ACTIVE
 93,Brooklyn,Union Channel ,US,224.0,11,Boerum Hill Polygon,ACTIVE
+260,New York,Cocoa Exchange,US,,9,Financial District Polygon,ACTIVE
 212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon,ACTIVE
 151,Miami,Cite On The Bay,US,437.0,1,Edgeater Polygon,ACTIVE
 124,Brooklyn,The Kestrel,US,126.0,16,Floating NY 2,ACTIVE
@@ -37,6 +38,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 220,Miami,Bay Parc,US,,1,Edgeater Polygon,ACTIVE
 95,Brooklyn,416 Kent Avenue,US,252.0,10,Williamsburg Polygon,ACTIVE
 156,Key Biscayne,Cape Florida Club Condo Phase,US,60.0,2,The Ocean Club Polygon,INACTIVE
+269,New York,20 Exchange Place,US,,9,Financial District Polygon,ACTIVE
 137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,,ACTIVE
 158,Key Biscayne,Bahiamar Condominium of Key,US,41.0,2,The Ocean Club Polygon,INACTIVE
 44,New York,330W-56th,US,274.0,4,Hell's Kitchen Polygon,ACTIVE
