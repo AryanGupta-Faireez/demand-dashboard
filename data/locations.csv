@@ -17,6 +17,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 147,Key Biscayne,Club Tower I,US,800.0,2,The Ocean Club Polygon,INACTIVE
 157,Key Biscayne,Botanica at Key Colony,US,291.0,2,The Ocean Club Polygon,INACTIVE
 64,London,Grove End Gardens,GB,271.0,,,INACTIVE
+249,New York,605 West 42nd Street,US,,4,Hell's Kitchen Polygon,ACTIVE
 139,Miami,Bay Parc Apartments,US,474.0,1,Edgeater Polygon,ACTIVE
 94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,,ACTIVE
 213,Miami Beach,1330 West Avenue,US,,13,Miami Beach Polygon,ACTIVE
