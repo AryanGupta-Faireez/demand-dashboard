@@ -109,6 +109,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 38,Hoboken,river-street-333-hoboken,US,200.0,,,INACTIVE
 155,Key Biscayne,Key Colony 1 Tidemark,US,282.0,2,The Ocean Club Polygon,INACTIVE
 17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon,ACTIVE
+272,Harrison,Harrison Urby Apartments,US,,7,Harrison Polygon,ACTIVE
 178,Jersey City,179 Academy Street,US,50.0,,,INACTIVE
 118,Brooklyn,The Bergen,US,84.0,11,Boerum Hill Polygon,ACTIVE
 154,Key Biscayne,Key Colony 2. Ocean Sound,US,310.0,2,The Ocean Club Polygon,INACTIVE
