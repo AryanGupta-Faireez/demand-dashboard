@@ -17,10 +17,10 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 157,Key Biscayne,Botanica at Key Colony,US,291.0,2,The Ocean Club Polygon,INACTIVE
 212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon,ACTIVE
 47,Brooklyn,1 Boerum PL,US,138.0,16,Floating NY 2,ACTIVE
+94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,,INACTIVE
 64,London,Grove End Gardens,GB,271.0,,,INACTIVE
 249,New York,605 West 42nd Street,US,,4,Hell's Kitchen Polygon,ACTIVE
 139,Miami,Bay Parc Apartments,US,474.0,1,Edgewater Polygon,ACTIVE
-94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,,ACTIVE
 124,Brooklyn,The Kestrel,US,126.0,16,Floating NY 2,ACTIVE
 147,Key Biscayne,Club Tower I,US,800.0,2,The Ocean Club Polygon,INACTIVE
 111,Brooklyn,Brooklyn Crossing,US,858.0,11,Boerum Hill Polygon,ACTIVE
@@ -31,15 +31,18 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon,ACTIVE
 10,Jersey City,829 Garfield,US,110.0,3,Floating Jersey,ACTIVE
 61,West Orange,Stonehill,US,420.0,8,Chatham / West Orange Polygon,ACTIVE
-1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,,ACTIVE
+1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,,INACTIVE
 180,Miami,1800 Biscayne Plaza,US,195.0,1,Edgewater Polygon,ACTIVE
 8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon,ACTIVE
-7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,,ACTIVE
+4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,,INACTIVE
+7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,,INACTIVE
 220,Miami,Bay Parc,US,,1,Edgewater Polygon,ACTIVE
+11,Tel Aviv-Yafo,Gindi 3,IL,300.0,,,INACTIVE
+60,Tel Aviv-Yafo,HaHehad,IL,70.0,,,INACTIVE
 156,Key Biscayne,Cape Florida Club Condo Phase,US,60.0,2,The Ocean Club Polygon,INACTIVE
 205,New York,1 River Place,US,,4,Hell's Kitchen Polygon,ACTIVE
 95,Brooklyn,416 Kent Avenue,US,252.0,10,Williamsburg Polygon,ACTIVE
-137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,,ACTIVE
+137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,,INACTIVE
 150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgewater Polygon,ACTIVE
 158,Key Biscayne,Bahiamar Condominium of Key,US,41.0,2,The Ocean Club Polygon,INACTIVE
 269,New York,20 Exchange Place,US,,9,Financial District Polygon,ACTIVE
@@ -80,7 +83,6 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 39,New York,west-33rd-street-42-new-york,US,125.0,,,INACTIVE
 195,Miami,Flow Brickell,US,632.0,5,Flow Brickell Polygon,ACTIVE
 42,Chatham,The Ivy,US,200.0,8,Chatham / West Orange Polygon,ACTIVE
-60,Tel Aviv-Yafo,HaHehad,IL,70.0,,,ACTIVE
 186,Key Biscayne,100 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
 131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
@@ -120,11 +122,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 92,New York,The Buchanan,US,289.0,15,Floating NY 1,ACTIVE
 49,Brooklyn,409 Eastern Parkway,US,200.0,,,INACTIVE
 57,Tel Aviv-Yafo,Bronze 3,IL,134.0,,,INACTIVE
-11,Tel Aviv-Yafo,Gindi 3,IL,300.0,,,ACTIVE
 149,Miami,Opera Tower,US,635.0,1,Edgewater Polygon,ACTIVE
 135,Fair Lawn,Livana Fair Lawn,US,149.0,,,INACTIVE
 74,Miami,The Point at Coral Gables,US,237.0,,,INACTIVE
-4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,,ACTIVE
 198,Miami,Quantum on the Bay,US,698.0,1,Edgewater Polygon,ACTIVE
 188,Key Biscayne,55 Ocean Lane Drive,US,,2,The Ocean Club Polygon,INACTIVE
 58,Tel Aviv-Yafo,Bronze 5,IL,140.0,,,INACTIVE
