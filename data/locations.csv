@@ -106,11 +106,11 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 123,Miami Beach,Flamingo South Beach,US,284.0,13,Miami Beach Polygon,ACTIVE
 48,New York,Olympia House,US,240.0,,,INACTIVE
 38,Hoboken,river-street-333-hoboken,US,200.0,,,INACTIVE
+17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon,ACTIVE
 97,Jersey City,39 High Street,US,83.0,,,INACTIVE
 40,New York,east-45th-street-45-new-york,US,125.0,,,INACTIVE
 153,Miami,Watermarc at Biscayne Bay,US,296.0,1,Edgewater Polygon,ACTIVE
 155,Key Biscayne,Key Colony 1 Tidemark,US,282.0,2,The Ocean Club Polygon,INACTIVE
-17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon,ACTIVE
 138,Miami,The Mark on Brickell,US,370.0,,,INACTIVE
 178,Jersey City,179 Academy Street,US,50.0,,,INACTIVE
 197,Miami,251 NE 20th St apt 3506,US,420.0,1,Edgewater Polygon,ACTIVE
