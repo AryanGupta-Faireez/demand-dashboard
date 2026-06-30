@@ -7,6 +7,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 125,Brooklyn,The Vitagraph,US,312.0,16,Floating NY 2,ACTIVE
 181,Key Biscayne,Key Colony 3 Emeraldbay,US,,2,The Ocean Club Polygon,INACTIVE
 119,New York,535 W 43rd Street,US,280.0,4,Hell's Kitchen Polygon,ACTIVE
+276,Miami Beach,1510 Bay Road,US,,13,Miami Beach Polygon,ACTIVE
 182,Key Biscayne,121 Crandon Boulevard,US,,2,The Ocean Club Polygon,INACTIVE
 157,Key Biscayne,Botanica at Key Colony,US,291.0,2,The Ocean Club Polygon,INACTIVE
 15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
