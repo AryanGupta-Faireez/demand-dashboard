@@ -96,7 +96,6 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 5248,2026-04-12,2026-07-11,percentage,15
 11320,2026-05-18,2026-08-16,percentage,5
 11320,2026-05-18,2026-08-16,percentage,5
-8839,2026-04-10,2026-07-09,percentage,5
 11797,2026-05-18,2026-08-16,percentage,5
 11797,2026-05-18,2026-08-16,percentage,5
 7846,2025-09-24,2026-09-24,percentage,100
@@ -1078,7 +1077,6 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 4879,2025-04-14,2030-01-01,fixed,13
 4880,2025-04-14,2030-01-01,fixed,13
 4881,2025-04-14,2030-01-01,fixed,13
-5797,2026-04-10,2026-07-09,percentage,20
 4882,2025-04-14,2030-01-01,fixed,13
 4883,2025-04-14,2030-01-01,fixed,13
 4884,2025-04-14,2030-01-01,fixed,13
@@ -1372,7 +1370,6 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 10234,2026-04-11,2026-07-10,percentage,15
 9225,2026-05-19,2026-08-17,percentage,15
 276,2026-04-12,2026-12-31,percentage,5
-11466,2026-04-10,2026-07-09,percentage,15
 1100,2026-05-21,2026-08-19,percentage,5
 6798,2025-08-18,2026-08-18,percentage,100
 11533,2026-04-13,2026-07-12,percentage,15
@@ -2187,7 +2184,6 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 10542,2026-04-28,2026-07-27,percentage,5
 10542,2026-04-28,2026-07-27,percentage,5
 12167,2026-06-25,2026-08-24,percentage,5
-11458,2026-04-10,2026-07-09,percentage,15
 12168,2026-06-25,2026-08-24,percentage,5
 2832,2026-06-25,2026-09-23,percentage,8
 11419,2026-04-29,2026-07-28,percentage,5
@@ -2229,7 +2225,6 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 9955,2026-04-20,2026-07-19,percentage,20
 2425,2026-05-06,2026-08-04,percentage,5
 733,2025-09-25,2026-09-22,percentage,100
-10402,2026-04-10,2026-07-09,percentage,5
 3583,2026-05-06,2026-08-04,percentage,15
 3583,2026-05-06,2026-08-04,percentage,15
 9264,2026-05-07,2026-08-05,percentage,5
@@ -2253,7 +2248,6 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 513,2026-05-11,2026-08-09,percentage,5
 11906,2026-05-11,2026-08-09,percentage,5
 2385,2026-05-12,2026-08-10,percentage,15
-2697,2026-01-07,2026-07-09,percentage,10
 11903,2026-05-12,2026-08-10,percentage,5
 11903,2026-05-12,2026-08-10,percentage,5
 11860,2026-05-12,2026-08-10,percentage,5
