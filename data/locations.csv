@@ -58,10 +58,10 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 9,Jersey City,The Enclave,US,268.0,6,Hoboken Polygon,ACTIVE
 183,Miami,1800 North Bayshore Drive,US,469.0,1,Edgewater Polygon,ACTIVE
 214,Brooklyn,1 Boerum Place,US,,12,Brooklyn Heights Polygon,ACTIVE
-41,New York,John Street 116,US,220.0,9,Financial District Polygon,ACTIVE
 177,Jersey City,413 Summit,US,148.0,,,INACTIVE
 230,Brooklyn,378 Bergen Street,US,,11,Boerum Hill Polygon,ACTIVE
 144,Harrison,Waters Edge,US,141.0,7,Harrison Polygon,ACTIVE
+41,New York,John Street 116,US,220.0,9,Financial District Polygon,ACTIVE
 117,New York,The Landon,US,371.0,4,Hell's Kitchen Polygon,ACTIVE
 133,Miami,2000 Biscayne,US,424.0,1,Edgewater Polygon,ACTIVE
 140,Miami Beach,Southgate Towers,US,498.0,13,Miami Beach Polygon,ACTIVE
@@ -89,7 +89,6 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
 184,Key Biscayne,101 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 91,Queens,Alta,US,467.0,15,Floating NY 1,ACTIVE
-104,Miami,Midtown 5,US,400.0,,,ACTIVE
 130,New York,Arabella 101,US,77.0,16,Floating NY 2,ACTIVE
 75,Jersey City,The Devan,US,336.0,6,Hoboken Polygon,ACTIVE
 127,New York,220 East 72nd Street,US,152.0,16,Floating NY 2,ACTIVE
@@ -97,6 +96,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 96,Brooklyn,420 Kent Avenue,US,605.0,10,Williamsburg Polygon,ACTIVE
 76,Queens,Woodside Central,US,88.0,15,Floating NY 1,ACTIVE
 128,New York,250 E Houston,US,118.0,16,Floating NY 2,ACTIVE
+104,Miami,Midtown 5,US,400.0,17,Midtown 5,ACTIVE
 191,Miami,2001 Biscayne Boulevard,US,436.0,1,Edgewater Polygon,ACTIVE
 12,New York,50W34th,US,150.0,,,INACTIVE
 68,Brooklyn,655 Union,US,193.0,11,Boerum Hill Polygon,ACTIVE
