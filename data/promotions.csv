@@ -2124,7 +2124,6 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 12172,2026-06-26,2026-09-24,percentage,4
 10169,2026-06-27,2026-09-25,percentage,4
 8475,2026-06-27,2026-09-25,percentage,4
-7808,2026-04-30,2026-07-29,percentage,15
 4285,2025-04-14,2030-01-01,fixed,13
 11765,2026-05-05,2026-08-03,percentage,15
 11765,2026-05-05,2026-08-03,percentage,15
@@ -2161,6 +2160,7 @@ ApartmentId,StartDate,EndDate,PromotionType,PromotionValue
 8584,2026-03-23,2026-09-19,percentage,50
 7924,2026-07-28,2026-10-26,percentage,4
 9376,2026-06-26,2026-08-25,percentage,5
+12334,2026-07-30,2026-10-28,percentage,8
 2757,2026-05-08,2026-08-06,percentage,15
 2757,2026-05-08,2026-08-06,percentage,15
 1756,2026-05-08,2026-08-06,percentage,5
