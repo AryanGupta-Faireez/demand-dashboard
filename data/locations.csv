@@ -12,9 +12,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 151,Miami,Cite On The Bay,US,437.0,1,Edgewater Polygon,ACTIVE
 212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon,ACTIVE
 182,Key Biscayne,121 Crandon Boulevard,US,,2,The Ocean Club Polygon,INACTIVE
-15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 260,New York,Cocoa Exchange,US,,9,Financial District Polygon,ACTIVE
 56,Brooklyn,The Dime,US,177.0,10,Williamsburg Polygon,ACTIVE
+15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,,INACTIVE
 64,London,Grove End Gardens,GB,271.0,,,INACTIVE
 147,Key Biscayne,Club Tower I,US,800.0,2,The Ocean Club Polygon,INACTIVE
