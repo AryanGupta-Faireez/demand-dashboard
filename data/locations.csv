@@ -110,13 +110,13 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 40,New York,east-45th-street-45-new-york,US,125.0,,,INACTIVE
 38,Hoboken,river-street-333-hoboken,US,200.0,,,INACTIVE
 154,Key Biscayne,Key Colony 2. Ocean Sound,US,310.0,2,The Ocean Club Polygon,INACTIVE
-77,Jersey City,Oliver on the Hudson,US,401.0,3,Floating Jersey,ACTIVE
 65,Jersey City,Sawyer,US,120.0,6,Hoboken Polygon,INACTIVE
 17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon,ACTIVE
 272,Harrison,Harrison Urby Apartments,US,,7,Harrison Polygon,ACTIVE
 171,Miami,22 Skyview Apartments,US,258.0,1,Edgewater Polygon,ACTIVE
 138,Miami,The Mark on Brickell,US,370.0,,,INACTIVE
 178,Jersey City,179 Academy Street,US,50.0,,,INACTIVE
+77,Jersey City,Oliver on the Hudson,US,401.0,,,ACTIVE
 118,Brooklyn,The Bergen,US,84.0,11,Boerum Hill Polygon,ACTIVE
 191,Miami,2001 Biscayne Boulevard,US,436.0,1,Edgewater Polygon,ACTIVE
 57,Tel Aviv-Yafo,Bronze 3,IL,134.0,,,INACTIVE
