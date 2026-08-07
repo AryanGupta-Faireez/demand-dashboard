@@ -9,12 +9,12 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 119,New York,535 W 43rd Street,US,280.0,4,Hell's Kitchen Polygon,ACTIVE
 181,Key Biscayne,Key Colony 3 Emeraldbay,US,,2,The Ocean Club Polygon,INACTIVE
 93,Brooklyn,Union Channel ,US,224.0,11,Boerum Hill Polygon,ACTIVE
+15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 151,Miami,Cite On The Bay,US,437.0,1,Edgewater Polygon,ACTIVE
 212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon,ACTIVE
 182,Key Biscayne,121 Crandon Boulevard,US,,2,The Ocean Club Polygon,INACTIVE
 260,New York,Cocoa Exchange,US,,9,Financial District Polygon,ACTIVE
 56,Brooklyn,The Dime,US,177.0,10,Williamsburg Polygon,ACTIVE
-15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,,INACTIVE
 64,London,Grove End Gardens,GB,271.0,,,INACTIVE
 147,Key Biscayne,Club Tower I,US,800.0,2,The Ocean Club Polygon,INACTIVE
@@ -110,8 +110,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 40,New York,east-45th-street-45-new-york,US,125.0,,,INACTIVE
 38,Hoboken,river-street-333-hoboken,US,200.0,,,INACTIVE
 154,Key Biscayne,Key Colony 2. Ocean Sound,US,310.0,2,The Ocean Club Polygon,INACTIVE
-65,Jersey City,Sawyer,US,120.0,6,Hoboken Polygon,INACTIVE
 17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon,ACTIVE
+65,Jersey City,Sawyer,US,120.0,6,Hoboken Polygon,INACTIVE
 272,Harrison,Harrison Urby Apartments,US,,7,Harrison Polygon,ACTIVE
 171,Miami,22 Skyview Apartments,US,258.0,1,Edgewater Polygon,ACTIVE
 138,Miami,The Mark on Brickell,US,370.0,,,INACTIVE
