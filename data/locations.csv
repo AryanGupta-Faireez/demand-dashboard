@@ -27,6 +27,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 51,Harrison,300 Somerset,US,275.0,7,Harrison Polygon,ACTIVE
 111,Brooklyn,Brooklyn Crossing,US,858.0,11,Boerum Hill Polygon,ACTIVE
 204,Miami,1717 North Bayshore Drive,US,810.0,1,Edgewater Polygon,ACTIVE
+8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon,ACTIVE
 180,Miami,1800 Biscayne Plaza,US,195.0,1,Edgewater Polygon,ACTIVE
 73,Miami,The Boulevard,US,282.0,,,ACTIVE
 104,Miami,Midtown 5,US,400.0,17,Midtown 5,ACTIVE
@@ -34,7 +35,6 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon,ACTIVE
 10,Jersey City,829 Garfield,US,110.0,3,Floating Jersey,ACTIVE
 61,West Orange,Stonehill,US,420.0,8,Chatham / West Orange Polygon,ACTIVE
-8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon,ACTIVE
 4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,,INACTIVE
 220,Miami,Bay Parc,US,,1,Edgewater Polygon,ACTIVE
 7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,,INACTIVE
