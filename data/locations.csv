@@ -101,11 +101,11 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 170,Key Biscayne,Towers of Key Biscayne,US,538.0,2,The Ocean Club Polygon,INACTIVE
 71,New York,Yorkville Tower 1,US,384.0,,,INACTIVE
 123,Miami Beach,Flamingo South Beach,US,284.0,13,Miami Beach Polygon,ACTIVE
-68,Brooklyn,655 Union,US,193.0,11,Boerum Hill Polygon,ACTIVE
 120,Brooklyn,66 Rockwell Place,US,326.0,12,Brooklyn Heights Polygon,ACTIVE
 48,New York,Olympia House,US,240.0,,,INACTIVE
 213,Miami Beach,1330 West Avenue,US,,13,Miami Beach Polygon,ACTIVE
 12,New York,50W34th,US,150.0,,,INACTIVE
+68,Brooklyn,655 Union,US,193.0,11,Boerum Hill Polygon,ACTIVE
 97,Jersey City,39 High Street,US,83.0,,,INACTIVE
 38,Hoboken,river-street-333-hoboken,US,200.0,,,INACTIVE
 40,New York,east-45th-street-45-new-york,US,125.0,,,INACTIVE
