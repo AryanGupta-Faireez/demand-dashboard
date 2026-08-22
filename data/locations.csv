@@ -77,12 +77,12 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 98,Jersey City,345 Baldwin Avenue,US,116.0,3,Floating Jersey,ACTIVE
 176,Jersey City,75 Jordan ,US,35.0,,,INACTIVE
 42,Chatham,The Ivy,US,200.0,8,Chatham / West Orange Polygon,ACTIVE
-145,Harrison,Dey and Bergen,US,242.0,7,Harrison Polygon,ACTIVE
 207,New York,561 10th Avenue,US,,4,Hell's Kitchen Polygon,ACTIVE
 186,Key Biscayne,100 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 62,Jersey City,Le Leo,US,99.0,,,INACTIVE
 54,New York,Nine 52,US,156.0,4,Hell's Kitchen Polygon,ACTIVE
 195,Miami,Flow Brickell,US,632.0,5,Flow Brickell Polygon,ACTIVE
+145,Harrison,Dey and Bergen,US,242.0,7,Harrison Polygon,ACTIVE
 39,New York,west-33rd-street-42-new-york,US,125.0,,,INACTIVE
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon,ACTIVE
