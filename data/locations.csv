@@ -113,9 +113,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 118,Brooklyn,The Bergen,US,84.0,11,Boerum Hill Polygon,ACTIVE
 9,Jersey City,The Enclave,US,268.0,6,Hoboken Polygon,ACTIVE
 17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon,ACTIVE
-272,Harrison,Harrison Urby Apartments,US,,7,Harrison Polygon,ACTIVE
 178,Jersey City,179 Academy Street,US,50.0,,,INACTIVE
 154,Key Biscayne,Key Colony 2. Ocean Sound,US,310.0,2,The Ocean Club Polygon,INACTIVE
+272,Harrison,Harrison Urby Apartments,US,,7,Harrison Polygon,ACTIVE
 138,Miami,The Mark on Brickell,US,370.0,,,INACTIVE
 74,Miami,The Point at Coral Gables,US,237.0,,,INACTIVE
 158,Key Biscayne,Bahiamar Condominium of Key,US,41.0,2,The Ocean Club Polygon,INACTIVE
