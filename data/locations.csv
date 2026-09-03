@@ -3,10 +3,10 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 142,Harrison,One Harrison,US,257.0,7,Harrison Polygon,ACTIVE
 181,Key Biscayne,Key Colony 3 Emeraldbay,US,,2,The Ocean Club Polygon,INACTIVE
 119,New York,535 W 43rd Street,US,280.0,4,Hell's Kitchen Polygon,ACTIVE
-112,Brooklyn,Plank Road,US,312.0,11,Boerum Hill Polygon,ACTIVE
 92,New York,The Buchanan,US,289.0,15,Floating NY 1,ACTIVE
 199,Miami,1800 Club,US,,1,Edgewater Polygon,ACTIVE
 6,Jersey City,100 House,US,137.0,6,Hoboken Polygon,ACTIVE
+112,Brooklyn,Plank Road,US,312.0,11,Boerum Hill Polygon,ACTIVE
 125,Brooklyn,The Vitagraph,US,312.0,16,Floating NY 2,ACTIVE
 93,Brooklyn,Union Channel ,US,224.0,11,Boerum Hill Polygon,ACTIVE
 182,Key Biscayne,121 Crandon Boulevard,US,,2,The Ocean Club Polygon,INACTIVE
