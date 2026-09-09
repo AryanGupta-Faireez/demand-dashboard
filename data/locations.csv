@@ -86,10 +86,10 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 62,Jersey City,Le Leo,US,99.0,,,INACTIVE
 54,New York,Nine 52,US,156.0,4,Hell's Kitchen Polygon,ACTIVE
 149,Miami,Opera Tower,US,635.0,1,Edgewater Polygon,ACTIVE
+131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon,ACTIVE
 52,Harrison,330 Angelo Cifelli,US,330.0,7,Harrison Polygon,ACTIVE
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
-131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 91,Queens,Alta,US,467.0,15,Floating NY 1,ACTIVE
 184,Key Biscayne,101 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 115,Miami,Grove Central Residences,US,402.0,5,Flow Brickell Polygon,ACTIVE
