@@ -36,7 +36,6 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 249,New York,605 West 42nd Street,US,,4,Hell's Kitchen Polygon,ACTIVE
 180,Miami,1800 Biscayne Plaza,US,195.0,1,Edgewater Polygon,ACTIVE
 7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,,INACTIVE
-123,Miami Beach,Flamingo South Beach,US,284.0,13,Miami Beach Polygon,ACTIVE
 11,Tel Aviv-Yafo,Gindi 3,IL,300.0,,,INACTIVE
 60,Tel Aviv-Yafo,HaHehad,IL,70.0,,,INACTIVE
 205,New York,1 River Place,US,,4,Hell's Kitchen Polygon,ACTIVE
@@ -58,6 +57,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 159,Key Biscayne,Governors Lodge Condo,US,33.0,2,The Ocean Club Polygon,INACTIVE
 197,Miami,251 NE 20th St apt 3506,US,420.0,1,Edgewater Polygon,ACTIVE
 177,Jersey City,413 Summit,US,148.0,,,INACTIVE
+123,Miami Beach,Flamingo South Beach,US,284.0,13,Miami Beach Polygon,ACTIVE
 214,Brooklyn,1 Boerum Place,US,,12,Brooklyn Heights Polygon,ACTIVE
 41,New York,John Street 116,US,220.0,9,Financial District Polygon,ACTIVE
 230,Brooklyn,378 Bergen Street,US,,11,Boerum Hill Polygon,ACTIVE
@@ -88,9 +88,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 149,Miami,Opera Tower,US,635.0,1,Edgewater Polygon,ACTIVE
 131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon,ACTIVE
-52,Harrison,330 Angelo Cifelli,US,330.0,7,Harrison Polygon,ACTIVE
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
 91,Queens,Alta,US,467.0,15,Floating NY 1,ACTIVE
+52,Harrison,330 Angelo Cifelli,US,330.0,7,Harrison Polygon,ACTIVE
 184,Key Biscayne,101 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 115,Miami,Grove Central Residences,US,402.0,5,Flow Brickell Polygon,ACTIVE
 128,New York,250 E Houston,US,118.0,16,Floating NY 2,ACTIVE
