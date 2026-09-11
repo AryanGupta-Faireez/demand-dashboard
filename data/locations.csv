@@ -66,9 +66,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 114,New York,20 Broad Street,US,533.0,9,Financial District Polygon,ACTIVE
 99,Jersey City,425 Summit,US,390.0,,,INACTIVE
 53,Harrison,The Eddy,US,310.0,7,Harrison Polygon,ACTIVE
+140,Miami Beach,Southgate Towers,US,498.0,13,Miami Beach Polygon,ACTIVE
 117,New York,The Landon,US,371.0,4,Hell's Kitchen Polygon,ACTIVE
 141,Key Biscayne,Biscayne SFR,US,400.0,2,The Ocean Club Polygon,INACTIVE
-140,Miami Beach,Southgate Towers,US,498.0,13,Miami Beach Polygon,ACTIVE
 133,Miami,2000 Biscayne,US,424.0,1,Edgewater Polygon,ACTIVE
 98,Jersey City,345 Baldwin Avenue,US,116.0,3,Floating Jersey,ACTIVE
 176,Jersey City,75 Jordan ,US,35.0,,,INACTIVE
