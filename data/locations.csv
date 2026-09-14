@@ -30,18 +30,18 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 249,New York,605 West 42nd Street,US,,4,Hell's Kitchen Polygon,ACTIVE
 180,Miami,1800 Biscayne Plaza,US,195.0,1,Edgewater Polygon,ACTIVE
 122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon,ACTIVE
-8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon,ACTIVE
 1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,,INACTIVE
 61,West Orange,Stonehill,US,420.0,8,Chatham / West Orange Polygon,ACTIVE
+8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon,ACTIVE
 4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,,INACTIVE
 7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,,INACTIVE
 156,Key Biscayne,Cape Florida Club Condo Phase,US,60.0,2,The Ocean Club Polygon,INACTIVE
-205,New York,1 River Place,US,,4,Hell's Kitchen Polygon,ACTIVE
 11,Tel Aviv-Yafo,Gindi 3,IL,300.0,,,INACTIVE
 60,Tel Aviv-Yafo,HaHehad,IL,70.0,,,INACTIVE
 220,Miami,Bay Parc,US,,1,Edgewater Polygon,ACTIVE
 213,Miami Beach,1330 West Avenue,US,,13,Miami Beach Polygon,ACTIVE
 95,Brooklyn,416 Kent Avenue,US,252.0,10,Williamsburg Polygon,ACTIVE
+205,New York,1 River Place,US,,4,Hell's Kitchen Polygon,ACTIVE
 150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgewater Polygon,ACTIVE
 137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,,INACTIVE
 157,Key Biscayne,Botanica at Key Colony,US,291.0,2,The Ocean Club Polygon,INACTIVE
