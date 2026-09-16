@@ -22,9 +22,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 47,Brooklyn,1 Boerum PL,US,138.0,16,Floating NY 2,ACTIVE
 139,Miami,Bay Parc Apartments,US,474.0,1,Edgewater Polygon,ACTIVE
 204,Miami,1717 North Bayshore Drive,US,810.0,1,Edgewater Polygon,ACTIVE
+51,Harrison,300 Somerset,US,275.0,7,Harrison Polygon,ACTIVE
 111,Brooklyn,Brooklyn Crossing,US,858.0,11,Boerum Hill Polygon,ACTIVE
 211,Key Biscayne,Ocean Tower Two,US,,2,The Ocean Club Polygon,INACTIVE
-51,Harrison,300 Somerset,US,275.0,7,Harrison Polygon,ACTIVE
 129,Brooklyn,544 Carroll,US,132.0,11,Boerum Hill Polygon,ACTIVE
 10,Jersey City,829 Garfield,US,110.0,3,Floating Jersey,ACTIVE
 249,New York,605 West 42nd Street,US,,4,Hell's Kitchen Polygon,ACTIVE
@@ -86,13 +86,13 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 39,New York,west-33rd-street-42-new-york,US,125.0,,,INACTIVE
 91,Queens,Alta,US,467.0,15,Floating NY 1,ACTIVE
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
-52,Harrison,330 Angelo Cifelli,US,330.0,7,Harrison Polygon,ACTIVE
 184,Key Biscayne,101 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 171,Miami,22 Skyview Apartments,US,258.0,1,Edgewater Polygon,ACTIVE
 115,Miami,Grove Central Residences,US,402.0,5,Flow Brickell Polygon,ACTIVE
 131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 149,Miami,Opera Tower,US,635.0,1,Edgewater Polygon,ACTIVE
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon,ACTIVE
+52,Harrison,330 Angelo Cifelli,US,330.0,7,Harrison Polygon,ACTIVE
 127,New York,220 East 72nd Street,US,152.0,16,Floating NY 2,ACTIVE
 130,New York,Arabella 101,US,77.0,16,Floating NY 2,ACTIVE
 76,Queens,Woodside Central,US,88.0,15,Floating NY 1,ACTIVE
