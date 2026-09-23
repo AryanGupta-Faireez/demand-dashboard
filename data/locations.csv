@@ -13,11 +13,11 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 56,Brooklyn,The Dime,US,177.0,10,Williamsburg Polygon,ACTIVE
 151,Miami,Cite On The Bay,US,437.0,1,Edgewater Polygon,ACTIVE
 94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,,INACTIVE
+47,Brooklyn,1 Boerum PL,US,138.0,16,Floating NY 2,ACTIVE
 64,London,Grove End Gardens,GB,271.0,,,INACTIVE
 147,Key Biscayne,Club Tower I,US,800.0,2,The Ocean Club Polygon,INACTIVE
 124,Brooklyn,The Kestrel,US,126.0,16,Floating NY 2,ACTIVE
 104,Miami,Midtown 5,US,400.0,17,Midtown 5,ACTIVE
-47,Brooklyn,1 Boerum PL,US,138.0,16,Floating NY 2,ACTIVE
 139,Miami,Bay Parc Apartments,US,474.0,1,Edgewater Polygon,ACTIVE
 111,Brooklyn,Brooklyn Crossing,US,858.0,11,Boerum Hill Polygon,ACTIVE
 204,Miami,1717 North Bayshore Drive,US,810.0,1,Edgewater Polygon,ACTIVE
@@ -55,8 +55,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 144,Harrison,Waters Edge,US,141.0,7,Harrison Polygon,ACTIVE
 41,New York,John Street 116,US,220.0,9,Financial District Polygon,ACTIVE
 230,Brooklyn,378 Bergen Street,US,,11,Boerum Hill Polygon,ACTIVE
-183,Miami,1800 North Bayshore Drive,US,469.0,1,Edgewater Polygon,ACTIVE
 214,Brooklyn,1 Boerum Place,US,,12,Brooklyn Heights Polygon,ACTIVE
+183,Miami,1800 North Bayshore Drive,US,469.0,1,Edgewater Polygon,ACTIVE
 177,Jersey City,413 Summit,US,148.0,,,INACTIVE
 117,New York,The Landon,US,371.0,4,Hell's Kitchen Polygon,ACTIVE
 114,New York,20 Broad Street,US,533.0,9,Financial District Polygon,ACTIVE
