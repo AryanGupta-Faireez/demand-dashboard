@@ -81,8 +81,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 62,Jersey City,Le Leo,US,99.0,,,INACTIVE
 195,Miami,Flow Brickell,US,632.0,5,Flow Brickell Polygon,ACTIVE
 145,Harrison,Dey and Bergen,US,242.0,7,Harrison Polygon,ACTIVE
-207,New York,561 10th Avenue,US,,4,Hell's Kitchen Polygon,ACTIVE
 197,Miami,251 NE 20th St apt 3506,US,420.0,1,Edgewater Polygon,ACTIVE
+207,New York,561 10th Avenue,US,,4,Hell's Kitchen Polygon,ACTIVE
 186,Key Biscayne,100 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 91,Queens,Alta,US,467.0,15,Floating NY 1,ACTIVE
 184,Key Biscayne,101 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
