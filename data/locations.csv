@@ -44,8 +44,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,,INACTIVE
 269,New York,20 Exchange Place,US,,9,Financial District Polygon,ACTIVE
 44,New York,330W-56th,US,274.0,4,Hell's Kitchen Polygon,ACTIVE
-150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgewater Polygon,ACTIVE
 15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
+150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgewater Polygon,ACTIVE
 152,Key Biscayne,Lake Tower,US,75.0,2,The Ocean Club Polygon,INACTIVE
 154,Key Biscayne,Key Colony 2. Ocean Sound,US,310.0,2,The Ocean Club Polygon,INACTIVE
 276,Miami Beach,1510 Bay Road,US,,13,Miami Beach Polygon,ACTIVE
