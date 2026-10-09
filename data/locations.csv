@@ -116,8 +116,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 184,Key Biscayne,101 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
 159,Key Biscayne,Governors Lodge Condo,US,33.0,2,The Ocean Club Polygon,INACTIVE
 9,Jersey City,The Enclave,US,268.0,6,Hoboken Polygon,ACTIVE
-77,Jersey City,Oliver on the Hudson,US,401.0,,,ACTIVE
 17,New York,River Place,US,800.0,4,Hell's Kitchen Polygon,ACTIVE
+77,Jersey City,Oliver on the Hudson,US,401.0,,,ACTIVE
 198,Miami,Quantum on the Bay,US,698.0,1,Edgewater Polygon,ACTIVE
 188,Key Biscayne,55 Ocean Lane Drive,US,,2,The Ocean Club Polygon,INACTIVE
 57,Tel Aviv-Yafo,Bronze 3,IL,134.0,,,INACTIVE
