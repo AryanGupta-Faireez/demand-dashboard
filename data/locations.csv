@@ -44,7 +44,6 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 137,Tel Aviv-Yafo,Rothschild 80,IL,14.0,,,INACTIVE
 269,New York,20 Exchange Place,US,,9,Financial District Polygon,ACTIVE
 44,New York,330W-56th,US,274.0,4,Hell's Kitchen Polygon,ACTIVE
-15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 150,Miami,Quantum on the Bay Condominium,US,698.0,1,Edgewater Polygon,ACTIVE
 152,Key Biscayne,Lake Tower,US,75.0,2,The Ocean Club Polygon,INACTIVE
 154,Key Biscayne,Key Colony 2. Ocean Sound,US,310.0,2,The Ocean Club Polygon,INACTIVE
@@ -59,6 +58,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 41,New York,John Street 116,US,220.0,9,Financial District Polygon,ACTIVE
 123,Miami Beach,Flamingo South Beach,US,284.0,13,Miami Beach Polygon,ACTIVE
 230,Brooklyn,378 Bergen Street,US,,11,Boerum Hill Polygon,ACTIVE
+15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 141,Key Biscayne,Biscayne SFR,US,400.0,2,The Ocean Club Polygon,INACTIVE
 133,Miami,2000 Biscayne,US,424.0,1,Edgewater Polygon,ACTIVE
 53,Harrison,The Eddy,US,310.0,7,Harrison Polygon,ACTIVE
