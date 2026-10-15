@@ -82,8 +82,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 207,New York,561 10th Avenue,US,,4,Hell's Kitchen Polygon,ACTIVE
 62,Jersey City,Le Leo,US,99.0,,,INACTIVE
 186,Key Biscayne,100 Sunrise Drive,US,,2,The Ocean Club Polygon,INACTIVE
-131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 191,Miami,2001 Biscayne Boulevard,US,436.0,1,Edgewater Polygon,ACTIVE
+131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon,ACTIVE
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
 115,Miami,Grove Central Residences,US,402.0,5,Flow Brickell Polygon,ACTIVE
