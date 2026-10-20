@@ -107,8 +107,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 68,Brooklyn,655 Union,US,193.0,11,Boerum Hill Polygon,ACTIVE
 120,Brooklyn,66 Rockwell Place,US,326.0,12,Brooklyn Heights Polygon,ACTIVE
 155,Key Biscayne,Key Colony 1 Tidemark,US,282.0,2,The Ocean Club Polygon,INACTIVE
-40,New York,east-45th-street-45-new-york,US,125.0,,,INACTIVE
 15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
+40,New York,east-45th-street-45-new-york,US,125.0,,,INACTIVE
 38,Hoboken,river-street-333-hoboken,US,200.0,,,INACTIVE
 97,Jersey City,39 High Street,US,83.0,,,INACTIVE
 153,Miami,Watermarc at Biscayne Bay,US,296.0,1,Edgewater Polygon,ACTIVE
