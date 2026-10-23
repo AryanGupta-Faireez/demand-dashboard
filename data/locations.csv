@@ -128,9 +128,9 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 49,Brooklyn,409 Eastern Parkway,US,200.0,,,INACTIVE
 158,Key Biscayne,Bahiamar Condominium of Key,US,41.0,2,The Ocean Club Polygon,INACTIVE
 76,Queens,Woodside Central,US,88.0,15,Floating NY 1,ACTIVE
-73,Miami,The Boulevard,US,282.0,,,ACTIVE
 58,Tel Aviv-Yafo,Bronze 5,IL,140.0,,,INACTIVE
 232,Key Biscayne,Grand Bay Tower,US,,2,The Ocean Club Polygon,ACTIVE
 37,Hoboken,hudson-street-205-hoboken,US,160.0,,,INACTIVE
 78,Tel Aviv-Yafo,Rom,IL,227.0,,,INACTIVE
 63,Jersey City,Agnes,US,233.0,3,Floating Jersey,ACTIVE
+73,Miami,The Boulevard,US,282.0,,,ACTIVE
