@@ -8,6 +8,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 221,Miami Beach,Mirador 1000,US,,13,Miami Beach Polygon,ACTIVE
 272,Harrison,Harrison Urby Apartments,US,,7,Harrison Polygon,ACTIVE
 199,Miami,1800 Club,US,,1,Edgewater Polygon,ACTIVE
+398,Harrison,Steel Works,US,,7,Harrison Polygon,ACTIVE
 260,New York,Cocoa Exchange,US,,9,Financial District Polygon,ACTIVE
 151,Miami,Cite On The Bay,US,437.0,1,Edgewater Polygon,ACTIVE
 104,Miami,Midtown 5,US,400.0,17,Midtown 5,ACTIVE
@@ -33,8 +34,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 122,Miami Beach,Flamingo Point North Tower,US,367.0,13,Miami Beach Polygon,ACTIVE
 180,Miami,1800 Biscayne Plaza,US,195.0,1,Edgewater Polygon,ACTIVE
 249,New York,605 West 42nd Street,US,,4,Hell's Kitchen Polygon,ACTIVE
-1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,,INACTIVE
 8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon,ACTIVE
+1,Tel Aviv-Yafo,Azrieli TLV,IL,100.0,,,INACTIVE
 4,Tel Aviv-Yafo,Gindi 1,IL,385.0,,,INACTIVE
 213,Miami Beach,1330 West Avenue,US,,13,Miami Beach Polygon,ACTIVE
 7,Tel Aviv-Yafo,Gindi 2,IL,300.0,,,INACTIVE
