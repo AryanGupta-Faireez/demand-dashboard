@@ -18,6 +18,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 156,Key Biscayne,Cape Florida Club Condo Phase,US,60.0,2,The Ocean Club Polygon,INACTIVE
 212,Jersey City,39 New York Ave,US,,6,Hoboken Polygon,ACTIVE
 214,Brooklyn,1 Boerum Place,US,,12,Brooklyn Heights Polygon,ACTIVE
+15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 94,Tel Aviv-Yafo,Gindi 4,IL,385.0,,,INACTIVE
 64,London,Grove End Gardens,GB,271.0,,,INACTIVE
 147,Key Biscayne,Club Tower I,US,800.0,2,The Ocean Club Polygon,INACTIVE
@@ -122,7 +123,6 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 9,Jersey City,The Enclave,US,268.0,6,Hoboken Polygon,ACTIVE
 65,Jersey City,Sawyer,US,120.0,6,Hoboken Polygon,INACTIVE
 74,Miami,The Point at Coral Gables,US,237.0,,,INACTIVE
-15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 57,Tel Aviv-Yafo,Bronze 3,IL,134.0,,,INACTIVE
 49,Brooklyn,409 Eastern Parkway,US,200.0,,,INACTIVE
 188,Key Biscayne,55 Ocean Lane Drive,US,,2,The Ocean Club Polygon,INACTIVE
