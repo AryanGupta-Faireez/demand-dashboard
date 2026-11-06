@@ -92,6 +92,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon,ACTIVE
 131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 115,Miami,Grove Central Residences,US,402.0,5,Flow Brickell Polygon,ACTIVE
+414,New York,2 Gold St,US,,9,Financial District Polygon,ACTIVE
 130,New York,Arabella 101,US,77.0,16,Floating NY 2,ACTIVE
 126,Brooklyn,The Landing,US,140.0,12,Brooklyn Heights Polygon,ACTIVE
 75,Jersey City,The Devan,US,336.0,6,Hoboken Polygon,ACTIVE
