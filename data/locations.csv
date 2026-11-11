@@ -135,5 +135,5 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 37,Hoboken,hudson-street-205-hoboken,US,160.0,,,INACTIVE
 398,Harrison,Steel Works,US,,7,Harrison Polygon,ACTIVE
 53,Harrison,The Eddy,US,310.0,7,Harrison Polygon,ACTIVE
-15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
 205,New York,1 River Place,US,,4,Hell's Kitchen Polygon,ACTIVE
+15,New York,Silver Towers,US,1300.0,4,Hell's Kitchen Polygon,ACTIVE
