@@ -60,8 +60,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 134,East Hanover,Livana East Hanover,US,265.0,8,Chatham / West Orange Polygon,ACTIVE
 171,Miami,22 Skyview Apartments,US,258.0,1,Edgewater Polygon,ACTIVE
 177,Jersey City,413 Summit,US,148.0,,,INACTIVE
-159,Key Biscayne,Governors Lodge Condo,US,33.0,2,The Ocean Club Polygon,INACTIVE
 119,New York,535 W 43rd Street,US,280.0,4,Hell's Kitchen Polygon,ACTIVE
+159,Key Biscayne,Governors Lodge Condo,US,33.0,2,The Ocean Club Polygon,INACTIVE
 41,New York,John Street 116,US,220.0,9,Financial District Polygon,ACTIVE
 392,New York,The Beckford,US,104.0,,,ACTIVE
 144,Harrison,Waters Edge,US,141.0,7,Harrison Polygon,ACTIVE
@@ -88,8 +88,8 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 91,Queens,Alta,US,467.0,15,Floating NY 1,ACTIVE
 8,Jersey City,One Ten,US,238.0,6,Hoboken Polygon,ACTIVE
 121,Miami Beach,Flamingo Point Center Tower,US,513.0,13,Miami Beach Polygon,ACTIVE
-131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 414,New York,2 Gold St,US,,9,Financial District Polygon,ACTIVE
+131,Brooklyn,The Addison,US,271.0,12,Brooklyn Heights Polygon,ACTIVE
 196,Miami,Flow Miami,US,444.0,,,INACTIVE
 52,Harrison,330 Angelo Cifelli,US,330.0,7,Harrison Polygon,ACTIVE
 115,Miami,Grove Central Residences,US,402.0,5,Flow Brickell Polygon,ACTIVE
