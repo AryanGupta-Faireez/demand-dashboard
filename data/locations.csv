@@ -67,6 +67,7 @@ Id,City,Project,Country,ApproximateNumberOfApartments,NeighborhoodId,neighbourho
 144,Harrison,Waters Edge,US,141.0,7,Harrison Polygon,ACTIVE
 230,Brooklyn,378 Bergen Street,US,,11,Boerum Hill Polygon,ACTIVE
 133,Miami,2000 Biscayne,US,424.0,1,Edgewater Polygon,ACTIVE
+426,Brooklyn,Nevins Landing at Gowanus Wharf,US,,11,Boerum Hill Polygon,ACTIVE
 141,Key Biscayne,Biscayne SFR,US,400.0,2,The Ocean Club Polygon,INACTIVE
 140,Miami Beach,Southgate Towers,US,498.0,13,Miami Beach Polygon,ACTIVE
 393,Harrison,River Park Townhomes,US,,7,Harrison Polygon,ACTIVE
